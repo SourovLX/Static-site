@@ -1,0 +1,21 @@
+#root {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+.grid-wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.grid-items {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.grid-items img {
+    max-width: 100px;
+}
